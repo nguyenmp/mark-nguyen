@@ -1,0 +1,12 @@
+body {
+  background-image: url('background.jpg');
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+nav {
+  background-color: #FFF;
+  width: 600px;
+  margin: auto;
+}
