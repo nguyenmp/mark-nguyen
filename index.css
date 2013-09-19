@@ -5,8 +5,12 @@ body {
   background-color: #00F;
 }
 
-nav {
-  background-color: #FFF;
-  width: 600px;
+#wrapper {
+  width: 1160px;
   margin: auto;
+}
+
+.content {
+  background-color: #FFF;
+  margin: 4px auto;
 }
