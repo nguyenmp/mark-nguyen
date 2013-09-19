@@ -1,8 +1,8 @@
 body {
-  background-image: url('background.jpg');
+  background-image: url('background.gif');
   background-size: auto auto;
-  background-repeat: no-repeat;
-  background-color: #000;
+  background-repeat: repeat-x;
+  background-color: #00F;
 }
 
 nav {
