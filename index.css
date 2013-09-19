@@ -1,5 +1,5 @@
 body {
-  background-image: url('background.gif');
+  background-image: url('background.png');
   background-size: auto auto;
   background-repeat: repeat-x;
   background-color: #00F;
@@ -11,6 +11,37 @@ body {
 }
 
 .content {
+  opacity: 0.9;
   background-color: #FFF;
   margin: 4px auto;
 }
+
+#nav {
+  display: block;
+  width: auto;
+  margin: 0px auto 16px auto;
+}
+
+#nav-bar {
+}
+
+#nav-home {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 600%;
+  color: #00F;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.nav-item-container {
+  display: inline-block;
+}
+
+.nav-item {
+  color: #00F;
+  text-decoration: none;
+  font-size: 120%;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  padding: 0px 36px;
+}
+
