@@ -1,8 +1,6 @@
 body {
-  background-image: url('background.png');
   background-size: auto auto;
   background-repeat: repeat-x;
-  background-color: #00F;
 }
 
 #wrapper {
@@ -12,24 +10,23 @@ body {
 
 .content {
   opacity: 0.9;
-  background-color: #FFF;
   margin: 4px auto;
 }
 
 #nav {
   display: block;
   width: auto;
-  margin: 0px auto 16px auto;
-}
-
-#nav-bar {
+  border-bottom: blueviolet;
+  border-bottom-style: double;
+  color: blueviolet;
+  padding: 16px 0px;
 }
 
 #nav-home {
   font-weight: bold;
   text-decoration: none;
-  font-size: 600%;
-  color: #00F;
+  font-size: 400%;
+  margin: 0px 36px;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
@@ -38,10 +35,9 @@ body {
 }
 
 .nav-item {
-  color: #00F;
   text-decoration: none;
   font-size: 120%;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  padding: 0px 36px;
+  margin: 0px 36px;
 }
 
