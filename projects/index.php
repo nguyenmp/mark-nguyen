@@ -1,22 +1,11 @@
 <html>
-  <head>
-    <title>Frontend of Mark Nguyen</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="http://nguyenmp.com/index.css" />
-  </head>
+  <?php include '../header.php'; ?>
+  
   <body>
-    
+  
     <div id="wrapper">
-      <div id="nav" >
-        <a href=".." id="nav-home">Mark Nguyen</a>
-        <div class="nav-item-container">
-          <a href="projects" class="nav-item">Projects</a>
-          <a href="contact" class="nav-item">Contact</a>
-          <a href="http://twitter.com/nguyenm605/" class="nav-item">Twitter</a>
-          <a href="http://github.com/nguyenmp/" class="nav-item">GitHub</a>
-        </div>
-      </div>
-            
+      <?php include '../nav.php'; ?>
+
       <div class="content">
         <div>
           
