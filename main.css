@@ -2,21 +2,44 @@ body {
 	margin: 0px;
 
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.4vmin;
+}
+
+@media screen and (max-device-width: 900px) {
+	body {
+		font-size: 6vmin;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 4vmin;
+	}
+}
+
+h1 {
+	font-size: 10vmin;
+}
+
+h2 {
+	font-size: 8vmin;
+}
+
+h3 {
+	font-size: 6vmin;
 }
 
 #background {
-	background-image: url("IMG_20150310_21394522.jpg");
+	background-image: url("IMG_20150310_2139453.jpg");
 	background-size: cover;
 
-	width: 120%;
-	height: 120%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 	position: fixed;
 	left: 0;
 	right: 0;
 	z-index: 1;
-
-	margin: -32px;
-	-webkit-filter: blur(16px);
 }
 
 #container {
@@ -24,8 +47,21 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 9;
-
 	padding: 15%;
+}
+
+
+@media screen and (max-device-width: 900px) {
+	#container {
+		padding: 0%;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	#container {
+		padding: 0%;
+	}
 }
 
 .content_card {
@@ -33,6 +69,8 @@ body {
 	color: #f3e5ab;
 	margin: 64px;
 	padding: 48px;
+    border: 2px solid;
+    border-radius: 25px;
 }
 
 #title {
