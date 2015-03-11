@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+
+	padding: 15%;
+
+	background: -webkit-linear-gradient(rgb(46,43,46), rgb(59,79,94)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgb(46,43,46), rgb(59,79,94)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgb(46,43,46), rgb(59,79,94)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgb(46,43,46), rgb(59,79,94)); /* Standard syntax */
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.content_card {
+	background-color: rgb(43,38,69);
+	color: #f3e5ab;
+	margin: 24px;
+}
+
+#title {
+	padding-top: 48px;
+	padding-left: 48px;
+	padding-right: 48px;
+	text-align: center;
+	padding-bottom: 48px;
+}
+
+a {
+	color: #f3e5ab;;
+}
+
+#navigation {
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#navigation li {
+	display: inline;
+	list-style-type: none;
+	padding: 12px;
+}
