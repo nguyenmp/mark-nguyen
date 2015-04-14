@@ -2,39 +2,15 @@ body {
 	margin: 0px;
 
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 2.4vmin;
 }
 
-@media screen and (max-device-width: 900px) {
-	body {
-		font-size: 6vmin;
-	}
-}
-
-@media screen and (max-width: 900px) {
-	body {
-		font-size: 4vmin;
-	}
-}
-
-h1 {
-	font-size: 10vmin;
-}
-
-h2 {
-	font-size: 8vmin;
-}
-
-h3 {
-	font-size: 6vmin;
-}
 
 #background {
 	background-image: url("IMG_20150310_2139453.jpg");
 	background-size: cover;
 
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	overflow: hidden;
 	position: fixed;
 	left: 0;
@@ -51,13 +27,6 @@ h3 {
 }
 
 
-@media screen and (max-device-width: 900px) {
-	#container {
-		padding: 0%;
-	}
-}
-
-
 @media screen and (max-width: 900px) {
 	#container {
 		padding: 0%;
@@ -71,6 +40,13 @@ h3 {
 	padding: 48px;
     border: 2px solid;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 900px) {
+	.content_card {
+		margin: 8%;
+		padding: 4%;
+	}
 }
 
 #title {
