@@ -8,14 +8,16 @@
 
 #background {
     background-image: url("IMG_20150310_2139453.jpg");
+    background-color: black;
     background-size: cover;
-
-    width: 100vw;
-    height: 100vh;
+    background-position: center;
+    -webkit-filter: brightness(60%) blur(5px); // TODO: check compatability
+    width: 120vw;
+    height: 120vh;
     overflow: hidden;
     position: fixed;
-    left: 0;
-    right: 0;
+    left: -10vw;
+    top: -10vh;
     z-index: -1;
 }
 
@@ -28,9 +30,15 @@
 
 #title {
     max-width: 980px;
-    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     display: inline-block;
     text-align: center;
+    width: 100%;
+
+    @include mobile-small {
+        margin: auto;
+    }
 }
 
 .header {
@@ -59,10 +67,11 @@
 .header_text {
     float: left;
     margin: 4vh;
-    text-align: center;
+    text-align: left;
 
     @include mobile-small {
         float: none;
+        text-align: center;
     }
 
     #my_name {
@@ -89,12 +98,11 @@
 }
 
 .content_card {
-    background-color: rgba(43,38,69, 0.7);
-    color: #f3e5ab;
-    margin: 64px;
+    color: #AFC1D6;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 980px;
+    margin: 8% auto;
     padding: 48px;
-    border: 2px solid;
-    border-radius: 25px;
 
     @include mobile {
         margin: 8%;
@@ -103,7 +111,7 @@
 }
 
 a {
-    color: #f3e5ab;;
+    color: #AFC1D6;
 }
 
 #navigation {
