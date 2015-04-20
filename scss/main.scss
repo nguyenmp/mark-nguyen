@@ -1,2 +1,14 @@
+$max-column-width: 768px;
+
+/* This is a dirty hack that removes any padding and margin defined by the user stylesheet given from Chrome which has fucked up paddings */
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @import 'mixins';
+@import 'background';
 @import 'heading';
+@import 'content';

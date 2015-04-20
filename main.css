@@ -1,3 +1,4 @@
+/* This is a dirty hack that removes any padding and margin defined by the user stylesheet given from Chrome which has fucked up paddings */
 * {
   margin: 0;
   padding: 0;
@@ -11,14 +12,14 @@ html, body {
   background-color: black;
   background-size: cover;
   background-position: center;
-  -webkit-filter: brightness(60%) blur(5px);
+  -webkit-filter: brightness(60%) blur(10vmin);
+  z-index: -1;
+  /* We will position our view to be slightly over the edge by 10vmin */
+  position: fixed;
   width: 120vw;
   height: 120vh;
-  overflow: hidden;
-  position: fixed;
   left: -10vw;
-  top: -10vh;
-  z-index: -1; }
+  top: -10vh; }
   @media (max-width: 767px) {
     #background {
       -webkit-filter: brightness(60%); } }
