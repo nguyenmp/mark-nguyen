@@ -27,6 +27,6 @@ html, body {
 
   @include mobile {
     // On mobile, remove blur
-    //-webkit-filter: brightness(60%);
+    -webkit-filter: brightness(60%);
   }
 }

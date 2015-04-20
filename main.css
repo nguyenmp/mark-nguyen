@@ -20,6 +20,9 @@ html, body {
   height: 200.2vw;
   left: -0.05vw;
   top: -0.1vw; }
+  @media (max-width: 767px) {
+    #background {
+      -webkit-filter: brightness(60%); } }
 
 #title_container {
   width: 100%;
