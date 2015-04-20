@@ -13,7 +13,7 @@ html, body {
   background-color: black;
   background-size: cover;
   background-position: center;
-  -webkit-filter: brightness(60%) blur(10vmin);
+  -webkit-filter: brightness(60%) blur(1vw);
 
   // This will definitely make it hidden behind everything
   z-index: -1;
