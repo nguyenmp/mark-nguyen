@@ -13,20 +13,20 @@ html, body {
   background-color: black;
   background-size: cover;
   background-position: center;
-  -webkit-filter: brightness(60%) blur(1vw);
+  -webkit-filter: brightness(60%) blur(0.1vmin);
 
   // This will definitely make it hidden behind everything
   z-index: -1;
 
   /* We will position our view to be slightly over the edge by 10vmin */
   position: fixed;
-  width: 120vw;
-  height: 120vh;
-  left: -10vw;
-  top: -10vh;
+  width: 100.1vw;
+  height: 200.2vw;
+  left: -0.05vw;
+  top: -0.1vw;
 
   @include mobile {
     // On mobile, remove blur
-    -webkit-filter: brightness(60%);
+    //-webkit-filter: brightness(60%);
   }
 }
