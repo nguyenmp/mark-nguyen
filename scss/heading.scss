@@ -1,3 +1,5 @@
+$max-column-width: 768px;
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+html, body {
     overflow-x: hidden;
 }
 
@@ -32,7 +34,7 @@ body {
 }
 
 #title {
-    max-width: 980px;
+    max-width: $max-column-width;
     margin-left: 8%;
     margin-right: 8%;
     display: inline-block;
@@ -94,6 +96,9 @@ body {
     right: 0;
     z-index: 0;
     padding: 0 15%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $max-column-width;
 
     @include mobile {
         padding: 0%;
@@ -124,7 +129,16 @@ a {
 }
 
 #navigation li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    padding: 12px;
+}
+
+li {
+    margin: 12px;
+    margin-left: 18px;
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
