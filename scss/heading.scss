@@ -116,7 +116,7 @@ html, body {
     margin: 12px auto;
     padding: 48px;
     border-radius: 2px;
-    transition: all 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 
     @include mobile {
         margin: 12px;
