@@ -94,14 +94,14 @@ html, body {
   max-width: 980px;
   margin: 12px auto;
   padding: 48px;
-  border-radius: 2px;
-  transition: background-color 0.5s ease-in-out; }
+  border-radius: 2px; }
   @media (max-width: 767px) {
     .content_card {
       margin: 12px;
       padding: 4%; } }
   .content_card:hover {
-    background-color: rgba(0, 0, 0, 0.9); }
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: background-color 0.5s ease-in-out; }
 
 a {
   color: #AFC1D6; }
