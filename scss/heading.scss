@@ -115,6 +115,7 @@ html, body {
     max-width: 980px;
     margin: 12px auto;
     padding: 48px;
+    border-radius: 2px;
 
     @include mobile {
         margin: 12px;
