@@ -7,7 +7,7 @@ html, body {
   overflow-x: hidden; }
 
 #background {
-  background-image: url("IMG_20150310_2139453.jpg");
+  background-image: url("IMG_20150310_2139454.jpg");
   background-color: black;
   background-size: cover;
   background-position: center;
@@ -20,6 +20,9 @@ html, body {
   left: -10vw;
   top: -10vh;
   z-index: -1; }
+  @media (max-width: 767px) {
+    #background {
+      -webkit-filter: brightness(60%); } }
 
 #title_container {
   width: 100%;
