@@ -6,12 +6,12 @@
 }
 
 #title {
-    max-width: $max-column-width;
-    margin-left: 8%;
-    margin-right: 8%;
+    @extend .content-width;
+
+    width: 100%;
+
     display: inline-block;
     text-align: center;
-    width: 100%;
 
     @include mobile-small {
         margin: auto;

@@ -9,6 +9,18 @@ $max-column-width: 768px;
 }
 
 @import 'mixins';
+
+// This doesn't really belong here but it's
+// used by both heading and content and uses mixins::mobile
+.content-width {
+    max-width: $max-column-width;
+    margin: 12px auto;
+
+    @include mobile {
+        margin: 12px;
+    }
+}
+
 @import 'background';
 @import 'heading';
 @import 'content';

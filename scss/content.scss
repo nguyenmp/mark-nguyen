@@ -1,30 +1,9 @@
-#container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    padding: 0 15%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $max-column-width;
-
-    @include mobile {
-        padding: 0%;
-    }
-}
-
 .content_card {
+    @extend .content-width;
+
     color: #AFC1D6;
     background-color: rgba(0, 0, 0, 0.7);
-    max-width: 980px;
-    margin: 12px auto;
-    padding: 48px;
     border-radius: 2px;
-
-    @include mobile {
-        margin: 12px;
-        padding: 4%;
-    }
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.9);
@@ -32,14 +11,22 @@
     }
 }
 
+.content_card_inner {
+    padding: 32px;
+
+    h2 {
+        color: #8BA5C3;
+        text-decoration: underline;
+    }
+}
+
 a {
-    color: #AFC1D6;
+    color: peachpuff;
+    text-decoration: none;
 }
 
 #navigation {
     text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
 }
 
 #navigation li {
