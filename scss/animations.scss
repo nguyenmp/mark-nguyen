@@ -1,0 +1,21 @@
+@import 'vendors';
+
+@include vendors-keyframes(fadein) {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@mixin fade-in($delay) {
+    $duration: 4s;
+
+    @include vendors("animation", "fadein #{$duration}");
+    @include vendors("animation-delay", "#{$delay}");
+    @include vendors("animation-fill-mode", "both");
+}
+
+$delays: 0s 0.5s 1s;
+@each $delay in $delays {
+    *[data-fade-in="#{$delay}"] {
+        @include fade-in($delay)
+    }
+}
