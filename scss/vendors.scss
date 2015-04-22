@@ -1,10 +1,9 @@
-$vendors: webkit moz ms o;
 @mixin vendors($attribute, $value) {
-    @each $vendor in $vendors {
-        -#{$vendor}-#{$attribute}: #{$value};
-    }
+    $prefixes: "-webkit-" "-moz-" "-ms-" "-o-" "";
 
-    #{$attribute}: #{$value};
+    @each $prefix in $prefixes {
+        #{$prefix}#{$attribute}: #{$value};
+    }
 }
 
 @mixin vendors-keyframes($name) {
