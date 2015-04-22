@@ -18,3 +18,22 @@ $delays: 0s 0.5s 1s;
         @include fade-in($delay)
     }
 }
+
+@include vendors-keyframes(spin) {
+    from {
+        @include vendors("transform", "rotate(0deg)");
+        background-size: initial;
+    }
+    50% {
+        @include vendors("transform", "scale(10) rotate(180deg)");
+        @include vendors("filter", "contrast(2000%)")
+    }
+    to   {
+        @include vendors("transform", "rotate(360deg)");
+        background-size: initial;
+    }
+}
+
+@mixin spin {
+    @include vendors("animation", "spin 2s linear infinite");
+}

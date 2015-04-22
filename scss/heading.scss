@@ -39,6 +39,11 @@
     @include mobile-small {
         float: none;
     }
+
+    &:hover {
+        @include spin;
+        background-size: initial;
+    }
 }
 
 .header_text {
