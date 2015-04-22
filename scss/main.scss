@@ -1,5 +1,3 @@
-$max-column-width: 768px;
-
 /* This is a dirty hack that removes any padding and margin defined by the user stylesheet given from Chrome which has fucked up paddings */
 * {
     margin: 0;
@@ -9,19 +7,8 @@ $max-column-width: 768px;
 }
 
 @import 'mobile';
-
-// This doesn't really belong here but it's
-// used by both heading and content and uses mixins::mobile
-.content-width {
-    max-width: $max-column-width;
-    margin: 12px auto;
-
-    @include mobile {
-        margin: 12px;
-    }
-}
-
+@import 'vendors';
 @import 'animations';
 @import 'background';
-@import 'heading';
 @import 'content';
+@import 'heading';
