@@ -47,7 +47,7 @@ a {
     list-style-type: none;
 }
 
-li {
+.company, .project {
     margin: 24px 0px;
 }
 
@@ -56,20 +56,45 @@ p {
     margin-bottom: 12px;
 }
 
-#projects, #experience {
-    header {
-        display: inline;
-    }
-}
-
 #list-of-projects, #list-of-companies {
     list-style-type: none;
 }
 
+#projects, #experience {
+    header {
+        display: inline;
+        color: $foreground-primary;
+
+        @include mobile-small {
+            display: block;
+        }
+    }
+}
+
+.component-name {
+    color: $foreground-primary;
+}
+
 .project-date, .company-date {
     float: right;
+
+    @include mobile-small {
+        float: initial;
+        font-style: italic;
+    }
 }
 
 .job-title {
     font-weight: bold;
+}
+
+.project-description, .company-description {
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+    li {
+        margin-left: 24px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
 }

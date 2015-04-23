@@ -52,7 +52,6 @@
         float: left;
         margin: 12px;
         text-align: left;
-        height: $header_height;
 
         @include mobile-small {
             float: none;

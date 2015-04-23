@@ -263,7 +263,7 @@ html, body {
 .content_card_inner {
   padding: 32px; }
   .content_card_inner h2 {
-    color: #8BA5C3;
+    color: #7598BE;
     text-decoration: underline; }
 
 a {
@@ -277,24 +277,43 @@ a {
   display: inline-block;
   list-style-type: none; }
 
-li {
+.company, .project {
   margin: 24px 0px; }
 
 p {
   margin-top: 12px;
   margin-bottom: 12px; }
 
-#projects header, #experience header {
-  display: inline; }
-
 #list-of-projects, #list-of-companies {
   list-style-type: none; }
 
+#projects header, #experience header {
+  display: inline;
+  color: #7598BE; }
+  @media (max-width: 480px) {
+    #projects header, #experience header {
+      display: block; } }
+
+.component-name {
+  color: #7598BE; }
+
 .project-date, .company-date {
   float: right; }
+  @media (max-width: 480px) {
+    .project-date, .company-date {
+      float: initial;
+      font-style: italic; } }
 
 .job-title {
   font-weight: bold; }
+
+.project-description, .company-description {
+  margin-top: 6px;
+  margin-bottom: 16px; }
+  .project-description li, .company-description li {
+    margin-left: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px; }
 
 #title_container {
   width: 100%;
@@ -335,8 +354,7 @@ p {
   .header .header_text {
     float: left;
     margin: 12px;
-    text-align: left;
-    height: 80px; }
+    text-align: left; }
     @media (max-width: 480px) {
       .header .header_text {
         float: none;
@@ -344,7 +362,7 @@ p {
     .header .header_text #my_name {
       font-size: 48px;
       line-height: 48px;
-      color: #8BA5C3; }
+      color: #7598BE; }
     .header .header_text #my_title {
       font-size: 32px;
       line-height: 32px;
