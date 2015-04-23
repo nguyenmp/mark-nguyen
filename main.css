@@ -436,8 +436,8 @@ p {
   display: inline-block; }
 
 #start-button {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: #7598BE;
   color: peachpuff;
   border-radius: 50px;
