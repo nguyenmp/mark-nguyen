@@ -449,4 +449,7 @@ p {
   top: 50%;
   transform: translateY(-50%); }
 
+#content {
+  min-height: 100vh; }
+
 /*# sourceMappingURL=main.css.map */
