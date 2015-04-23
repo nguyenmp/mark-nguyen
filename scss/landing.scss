@@ -1,0 +1,43 @@
+#landing {
+    width: 100vw;
+    background-color: $background_primary;
+    display: inline-block;
+    text-align: center;
+    color: $foreground_secondary;
+    font-size: 200%;
+    padding-top: 30vh;
+}
+
+#landing-name {
+    font-size: 140%;
+    color: $foreground_primary;
+}
+
+#landing-title {
+    font-size: 120%;
+    color: $foreground_primary;
+}
+
+#start-link {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+#start-button {
+    width: 100px;
+    height: 100px;
+    background-color: $foreground_primary;
+    color: $foreground_accent;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#start-button-text {
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}

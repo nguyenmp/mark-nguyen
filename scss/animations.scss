@@ -12,7 +12,7 @@
     @include vendors("animation-timing-function", "ease-in-out");
 }
 
-$delays: 0s 0.5s 1s;
+$delays: 0s 0.5s 1s 1.5s 2s;
 @each $delay in $delays {
     *[data-fade-in="#{$delay}"] {
         @include fade-in($delay)
