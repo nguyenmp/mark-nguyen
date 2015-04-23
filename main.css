@@ -281,10 +281,8 @@ html, body {
   z-index: -1;
   /* We will position our view to be slightly over the edge by 10vmin */
   position: fixed;
-  width: 100.1vw;
-  height: 200.2vw;
-  left: -0.05vw;
-  top: -0.1vw; }
+  width: 100%;
+  height: 100%; }
   @media (max-width: 767px) {
     #background {
       -webkit-filter: brightness(60%); } }
