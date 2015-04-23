@@ -278,12 +278,23 @@ a {
   list-style-type: none; }
 
 li {
-  margin: 12px;
-  margin-left: 18px; }
+  margin: 24px 0px; }
 
 p {
   margin-top: 12px;
   margin-bottom: 12px; }
+
+#projects header, #experience header {
+  display: inline; }
+
+#list-of-projects, #list-of-companies {
+  list-style-type: none; }
+
+.project-date, .company-date {
+  float: right; }
+
+.job-title {
+  font-weight: bold; }
 
 #title_container {
   width: 100%;
