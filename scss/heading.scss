@@ -1,6 +1,6 @@
 #title_container {
     width: 100%;
-    background-color: black;
+    background-color: $background_primary;
     display: inline-block;
     text-align: center;
 }
@@ -19,50 +19,56 @@
 }
 
 .header {
-    color: #AFC1D6;
-    text-align: left;
-}
+    $header_height: 80px;
+    $ratio: 0.6;
+    $name_height: $header_height * $ratio;
+    $title_height: $header_height - $name_height;
 
-#my_face {
-    float: left;
-    background-image: url("./my_face_2.jpg");
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    margin: 12px;
-    width: 20vh;
-    height: 20vh;
-    max-width: 100px;
-    max-height: 100px;
-    display: inline-block;
-
-    @include mobile-small {
-        float: none;
-    }
-
-    &:hover {
-        @include spin;
-        background-size: initial;
-    }
-}
-
-.header_text {
-    float: left;
-    margin: 12px;
     text-align: left;
 
-    @include mobile-small {
-        float: none;
-        text-align: center;
+    #my_face {
+        float: left;
+        background-image: url("./my_face_2.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        margin: 12px;
+        width: $header_height;
+        height: $header_height;
+        display: inline-block;
+
+        @include mobile-small {
+            float: none;
+        }
+
+        &:hover {
+            @include spin;
+            background-size: initial;
+        }
     }
 
-    #my_name {
-        height: 12vh;
-        max-height: 60px;
-    }
 
-    #my_title {
-        height: 8vh;
-        max-height: 40px;
+    .header_text {
+        float: left;
+        margin: 12px;
+        text-align: left;
+        height: $header_height;
+
+        @include mobile-small {
+            float: none;
+            text-align: center;
+        }
+
+        #my_name {
+            font-size: $name_height;
+            line-height: $name_height;
+            color: $foreground_primary;
+        }
+
+        #my_title {
+            font-size: $title_height;
+            line-height: $title_height;
+            color: $foreground_secondary;
+        }
     }
 }

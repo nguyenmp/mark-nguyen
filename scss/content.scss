@@ -14,12 +14,12 @@ $max-column-width: 768px;
 .content_card {
     @extend .content-width;
 
-    color: #AFC1D6;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 2px;
+    color: $foreground_secondary;
+    background-color: $background_secondary;
+    border-radius: 4px;
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: $background_secondary_accent;
         transition: background-color 0.5s ease-in-out;
     }
 }
@@ -28,13 +28,13 @@ $max-column-width: 768px;
     padding: 32px;
 
     h2 {
-        color: #8BA5C3;
+        color: $foreground_primary;
         text-decoration: underline;
     }
 }
 
 a {
-    color: peachpuff;
+    color: $foreground_accent;
     text-decoration: none;
 }
 
