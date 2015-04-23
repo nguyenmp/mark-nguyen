@@ -452,6 +452,7 @@ p {
   position: relative;
   display: block;
   top: 50%;
+  font-size: 200%;
   transform: translateY(-50%); }
 
 #content {
