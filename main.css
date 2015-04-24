@@ -447,4 +447,7 @@ p {
 #content {
   min-height: 100vh; }
 
+h4 {
+  display: inline-block; }
+
 /*# sourceMappingURL=main.css.map */
