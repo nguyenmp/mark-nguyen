@@ -1,11 +1,3 @@
-// Because we position the image far into the left
-// and right side, we need to hide the x overflow
-// This cannot be put into #background because
-// it is 120% width which will most definitely overflow
-html, body {
-  overflow-x: hidden;
-}
-
 // this sets the empty div that fills the whole screen a
 // background image and set's it behind everything else
 #background {
