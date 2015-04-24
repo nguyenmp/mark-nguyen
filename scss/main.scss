@@ -6,6 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 @import 'colors';
 @import 'mobile';
 @import 'vendors';
