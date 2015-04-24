@@ -7,16 +7,16 @@
     <script type="text/javascript" src="https://kswedberg.github.io/jquery-smooth-scroll/src/jquery.smooth-scroll.js">
     </script>
     <script>
+      // Make all full screen items ignore the web chrome
+      function dothisonresize() {
+        $(".full-screen").css("height", window.outerHeight);
+      }
+      $(window).bind('resize', dothisonresize);
+
       $(document).ready(function() {
         // Make all internal links smooth scroll
         $("a").smoothScroll();
-
-        // Make all full screen items ignore the web chrome
-        function dothisonresize() {
-          $(".full-screen").css("height", window.outerHeight);
-        }
         dothisonresize();
-        $(window).resize(dothisonresize())
       });
     </script>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
