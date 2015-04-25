@@ -362,8 +362,6 @@ p {
   text-align: center; }
 
 #title {
-  width: 100%;
-  display: inline-block;
   text-align: center; }
   @media (max-width: 480px) {
     #title {
@@ -416,8 +414,11 @@ p {
   display: table; }
 
 #landing-inner {
-  display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding-top: 20%; }
+
+#landing-header {
+  display: inline-block; }
 
 #landing-name {
   font-size: 140%;
@@ -431,8 +432,14 @@ p {
 
 #start-link {
   bottom: 5%;
-  display: inline-block;
-  position: relative; }
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
 
 #start-button {
   width: 80px;
