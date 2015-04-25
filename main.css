@@ -280,7 +280,6 @@ html, body {
 #background {
   background-image: url("IMG_20150310_2139456.jpg");
   background-color: black;
-  background-size: cover;
   background-position: center;
   z-index: -1;
   /* We will position our view to be slightly over the edge by 10vmin */
