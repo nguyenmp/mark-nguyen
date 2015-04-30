@@ -37,6 +37,31 @@ html, body {
     opacity: 0; }
   to {
     opacity: 1; } }
+@keyframes fadeblackin {
+  from {
+    background-color: black; }
+  to {
+    background-color: initial; } }
+@-moz-keyframes fadeblackin {
+  from {
+    background-color: black; }
+  to {
+    background-color: initial; } }
+@-webkit-keyframes fadeblackin {
+  from {
+    background-color: black; }
+  to {
+    background-color: initial; } }
+@-ms-keyframes fadeblackin {
+  from {
+    background-color: black; }
+  to {
+    background-color: initial; } }
+@-o-keyframes fadeblackin {
+  from {
+    background-color: black; }
+  to {
+    background-color: initial; } }
 *[data-fade-in="0s"] {
   -webkit-animation: fadein 1.8s;
   -moz-animation: fadein 1.8s;
@@ -322,22 +347,34 @@ html, body {
     transform: rotate(360deg);
     background-size: initial; } }
 body {
-  background-color: black; }
-
-#background {
   background-image: url("IMG_20150310_21394555.jpg");
   background-color: black;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  -webkit-filter: brightness(0.5);
-  -moz-filter: brightness(0.5);
-  -ms-filter: brightness(0.5);
-  -o-filter: brightness(0.5);
-  filter: brightness(0.5);
-  z-index: -1;
-  /* We will position our view to be slightly over the edge by 10vmin */
-  position: fixed; }
+  background-attachment: fixed; }
+
+#background {
+  position: fixed;
+  -webkit-animation: fadeblackin 1.8s;
+  -moz-animation: fadeblackin 1.8s;
+  -ms-animation: fadeblackin 1.8s;
+  -o-animation: fadeblackin 1.8s;
+  animation: fadeblackin 1.8s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
 
 .content-width, .content_card, #title {
   max-width: 768px;

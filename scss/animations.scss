@@ -7,6 +7,25 @@
     }
 }
 
+@include vendors-keyframes(fadeblackin) {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: initial;
+    }
+}
+
+@mixin fade-black-in() {
+    $duration: 1.8s;
+    $delay: 1s;
+
+    @include vendors("animation", "fadeblackin #{$duration}");
+    @include vendors("animation-delay", "#{$delay}");
+    @include vendors("animation-fill-mode", "both");
+    @include vendors("animation-timing-function", "ease-in-out");
+}
+
 @mixin fade-in($delay) {
     $duration: 1.8s;
 
