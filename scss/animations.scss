@@ -1,28 +1,14 @@
 @include vendors-keyframes(fadein) {
     from {
-        transform: scale(0.1);
         opacity: 0;
     }
-    20% {
-        transform: scale(1.2);
-    }
-    40% {
-        transform: scale(0.6);
-    }
-    60% {
-        transform: scale(1.1);
-    }
-    80% {
-        transform: scale(0.8);
-    }
     to {
-        transform: scale(1);
         opacity: 1;
     }
 }
 
 @mixin fade-in($delay) {
-    $duration: 2s;
+    $duration: 1.8s;
 
     @include vendors("animation", "fadein #{$duration}");
     @include vendors("animation-delay", "#{$delay}");

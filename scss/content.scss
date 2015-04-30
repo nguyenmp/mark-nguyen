@@ -35,7 +35,14 @@ $content-margins: 16px;
 
 a {
     color: $foreground_accent;
-    text-decoration: none;
+    text-decoration: underline;
+    @include vendors("transition", "all 0.5s");
+
+
+    &:hover {
+        color: $foreground_primary;
+        text-decoration: underline;
+    }
 }
 
 #navigation {
