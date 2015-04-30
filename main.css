@@ -346,7 +346,7 @@ html, body {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
     background-size: initial; } }
-body {
+html {
   background-image: url("IMG_20150310_21394555.jpg");
   background-color: black;
   background-size: cover;
