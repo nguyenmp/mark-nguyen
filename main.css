@@ -277,6 +277,9 @@ html, body {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
     background-size: initial; } }
+body {
+  background-color: black; }
+
 #background {
   background-image: url("IMG_20150310_2139456.jpg");
   background-color: black;
@@ -288,10 +291,10 @@ html, body {
 
 .content-width, .content_card, #title {
   max-width: 768px;
-  margin: 12px auto; }
+  margin: 16px auto; }
   @media (max-width: 767px) {
     .content-width, .content_card, #title {
-      margin: 12px; } }
+      margin: 16px; } }
 
 .content_card {
   color: #AFC1D6;
@@ -362,10 +365,8 @@ p {
   text-align: center; }
 
 #title {
-  text-align: center; }
-  @media (max-width: 480px) {
-    #title {
-      margin: auto; } }
+  text-align: center;
+  margin: 0 auto; }
 
 .header {
   text-align: left; }
@@ -375,7 +376,7 @@ p {
     background-position: center;
     background-size: cover;
     border-radius: 50%;
-    margin: 12px;
+    margin: 16px;
     width: 80px;
     height: 80px;
     display: inline-block; }
@@ -391,7 +392,7 @@ p {
       background-size: initial; }
   .header .header_text {
     float: left;
-    margin: 12px;
+    margin: 16px;
     text-align: left; }
     @media (max-width: 480px) {
       .header .header_text {

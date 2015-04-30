@@ -1,8 +1,12 @@
 // this sets the empty div that fills the whole screen a
 // background image and set's it behind everything else
+body {
+    background-color: $background_primary;
+}
+
 #background {
   background-image: url("IMG_20150310_2139456.jpg");
-  background-color: black;
+  background-color: $background_primary;
   background-size: cover;
   background-position: center;
 

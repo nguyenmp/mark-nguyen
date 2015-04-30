@@ -1,13 +1,14 @@
 $max-column-width: 768px;
+$content-margins: 16px;
 
 // This doesn't really belong here but it's
 // used by both heading and content and uses mixins::mobile
 .content-width {
     max-width: $max-column-width;
-    margin: 12px auto;
+    margin: $content-margins auto;
 
     @include mobile {
-        margin: 12px;
+        margin: $content-margins;
     }
 }
 
