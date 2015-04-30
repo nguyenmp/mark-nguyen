@@ -8,7 +8,8 @@ body {
   background-image: url("IMG_20150310_2139456.jpg");
   background-color: $background_primary;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
 
   // This will definitely make it hidden behind everything
   z-index: -1;
