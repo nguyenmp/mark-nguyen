@@ -355,7 +355,7 @@ body {
     color: #1F6BC3; }
 
 a {
-  color: #7598BE;
+  color: peachpuff;
   text-decoration: underline;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -498,7 +498,7 @@ p {
 #start-button {
   width: 80px;
   height: 80px;
-  color: #7598BE;
+  color: peachpuff;
   border-radius: 50px;
   text-align: center; }
 
