@@ -205,33 +205,33 @@ html, body {
     -ms-transform: scale(5) rotate(90deg);
     -o-transform: scale(5) rotate(90deg);
     transform: scale(5) rotate(90deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   50% {
     -webkit-transform: scale(10) rotate(180deg);
     -moz-transform: scale(10) rotate(180deg);
     -ms-transform: scale(10) rotate(180deg);
     -o-transform: scale(10) rotate(180deg);
     transform: scale(10) rotate(180deg);
-    -webkit-filter: contrast(200%);
-    -moz-filter: contrast(200%);
-    -ms-filter: contrast(200%);
-    -o-filter: contrast(200%);
-    filter: contrast(200%); }
+    -webkit-filter: contrast(2000%);
+    -moz-filter: contrast(2000%);
+    -ms-filter: contrast(2000%);
+    -o-filter: contrast(2000%);
+    filter: contrast(2000%); }
   75% {
     -webkit-transform: scale(5) rotate(270deg);
     -moz-transform: scale(5) rotate(270deg);
     -ms-transform: scale(5) rotate(270deg);
     -o-transform: scale(5) rotate(270deg);
     transform: scale(5) rotate(270deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -253,33 +253,33 @@ html, body {
     -ms-transform: scale(5) rotate(90deg);
     -o-transform: scale(5) rotate(90deg);
     transform: scale(5) rotate(90deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   50% {
     -webkit-transform: scale(10) rotate(180deg);
     -moz-transform: scale(10) rotate(180deg);
     -ms-transform: scale(10) rotate(180deg);
     -o-transform: scale(10) rotate(180deg);
     transform: scale(10) rotate(180deg);
-    -webkit-filter: contrast(200%);
-    -moz-filter: contrast(200%);
-    -ms-filter: contrast(200%);
-    -o-filter: contrast(200%);
-    filter: contrast(200%); }
+    -webkit-filter: contrast(2000%);
+    -moz-filter: contrast(2000%);
+    -ms-filter: contrast(2000%);
+    -o-filter: contrast(2000%);
+    filter: contrast(2000%); }
   75% {
     -webkit-transform: scale(5) rotate(270deg);
     -moz-transform: scale(5) rotate(270deg);
     -ms-transform: scale(5) rotate(270deg);
     -o-transform: scale(5) rotate(270deg);
     transform: scale(5) rotate(270deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -301,33 +301,33 @@ html, body {
     -ms-transform: scale(5) rotate(90deg);
     -o-transform: scale(5) rotate(90deg);
     transform: scale(5) rotate(90deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   50% {
     -webkit-transform: scale(10) rotate(180deg);
     -moz-transform: scale(10) rotate(180deg);
     -ms-transform: scale(10) rotate(180deg);
     -o-transform: scale(10) rotate(180deg);
     transform: scale(10) rotate(180deg);
-    -webkit-filter: contrast(200%);
-    -moz-filter: contrast(200%);
-    -ms-filter: contrast(200%);
-    -o-filter: contrast(200%);
-    filter: contrast(200%); }
+    -webkit-filter: contrast(2000%);
+    -moz-filter: contrast(2000%);
+    -ms-filter: contrast(2000%);
+    -o-filter: contrast(2000%);
+    filter: contrast(2000%); }
   75% {
     -webkit-transform: scale(5) rotate(270deg);
     -moz-transform: scale(5) rotate(270deg);
     -ms-transform: scale(5) rotate(270deg);
     -o-transform: scale(5) rotate(270deg);
     transform: scale(5) rotate(270deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -349,33 +349,33 @@ html, body {
     -ms-transform: scale(5) rotate(90deg);
     -o-transform: scale(5) rotate(90deg);
     transform: scale(5) rotate(90deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   50% {
     -webkit-transform: scale(10) rotate(180deg);
     -moz-transform: scale(10) rotate(180deg);
     -ms-transform: scale(10) rotate(180deg);
     -o-transform: scale(10) rotate(180deg);
     transform: scale(10) rotate(180deg);
-    -webkit-filter: contrast(200%);
-    -moz-filter: contrast(200%);
-    -ms-filter: contrast(200%);
-    -o-filter: contrast(200%);
-    filter: contrast(200%); }
+    -webkit-filter: contrast(2000%);
+    -moz-filter: contrast(2000%);
+    -ms-filter: contrast(2000%);
+    -o-filter: contrast(2000%);
+    filter: contrast(2000%); }
   75% {
     -webkit-transform: scale(5) rotate(270deg);
     -moz-transform: scale(5) rotate(270deg);
     -ms-transform: scale(5) rotate(270deg);
     -o-transform: scale(5) rotate(270deg);
     transform: scale(5) rotate(270deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -397,33 +397,33 @@ html, body {
     -ms-transform: scale(5) rotate(90deg);
     -o-transform: scale(5) rotate(90deg);
     transform: scale(5) rotate(90deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   50% {
     -webkit-transform: scale(10) rotate(180deg);
     -moz-transform: scale(10) rotate(180deg);
     -ms-transform: scale(10) rotate(180deg);
     -o-transform: scale(10) rotate(180deg);
     transform: scale(10) rotate(180deg);
-    -webkit-filter: contrast(200%);
-    -moz-filter: contrast(200%);
-    -ms-filter: contrast(200%);
-    -o-filter: contrast(200%);
-    filter: contrast(200%); }
+    -webkit-filter: contrast(2000%);
+    -moz-filter: contrast(2000%);
+    -ms-filter: contrast(2000%);
+    -o-filter: contrast(2000%);
+    filter: contrast(2000%); }
   75% {
     -webkit-transform: scale(5) rotate(270deg);
     -moz-transform: scale(5) rotate(270deg);
     -ms-transform: scale(5) rotate(270deg);
     -o-transform: scale(5) rotate(270deg);
     transform: scale(5) rotate(270deg);
-    -webkit-filter: contrast(100%);
-    -moz-filter: contrast(100%);
-    -ms-filter: contrast(100%);
-    -o-filter: contrast(100%);
-    filter: contrast(100%); }
+    -webkit-filter: contrast(1000%);
+    -moz-filter: contrast(1000%);
+    -ms-filter: contrast(1000%);
+    -o-filter: contrast(1000%);
+    filter: contrast(1000%); }
   to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
