@@ -28,9 +28,17 @@ $delays: 0s 0.5s 1s 1.5s 2s 2.5s 3s;
         @include vendors("transform", "rotate(0deg)");
         background-size: initial;
     }
+    25% {
+        @include vendors("transform", "scale(5) rotate(90deg)");
+        @include vendors("filter", "contrast(100%)")
+    }
     50% {
         @include vendors("transform", "scale(10) rotate(180deg)");
-        @include vendors("filter", "contrast(2000%)")
+        @include vendors("filter", "contrast(200%)")
+    }
+    75% {
+        @include vendors("transform", "scale(5) rotate(270deg)");
+        @include vendors("filter", "contrast(100%)")
     }
     to   {
         @include vendors("transform", "rotate(360deg)");
