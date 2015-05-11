@@ -5,6 +5,12 @@
     text-align: center;
 }
 
+#w {
+    &:hover {
+        @include flippy-floppy;
+    }
+}
+
 #title {
     @extend .content-width;
     

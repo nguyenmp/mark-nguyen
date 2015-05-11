@@ -49,3 +49,26 @@ $delays: 0s 0.5s 1s 1.5s 2s 2.5s 3s;
 @mixin spin {
     @include vendors("animation", "spin 2s linear infinite");
 }
+
+@include vendors-keyframes(flippy-floppy) {
+    from {
+        @include vendors("transform", "rotateX(0deg)");
+    }
+    25% {
+        @include vendors("transform", "rotateX(90deg)");
+    }
+    50% {
+        @include vendors("transform", "rotateX(180deg)");
+    }
+    75% {
+        @include vendors("transform", "rotateX(270deg)");
+    }
+    to {
+        @include vendors("transform", "rotateX(360deg)");
+    }
+}
+
+@mixin flippy-floppy {
+    @include vendors("animation", "flippy-floppy 2s ease-in-out infinite");
+    display: inline-block;
+}
