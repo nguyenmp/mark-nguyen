@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^.*\.nguyenmp\.com$ 
+RewriteRule (.*) http://www.nguyenmp.com/$1 [R=302,L]
+RewriteCond %{HTTP_HOST} ^mpnguyen\.ninja$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mpnguyen\.ninja$
+RewriteRule ^/?$ "http\:\/\/nguyenmp\.com" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^mpnguyen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mpnguyen\.com$
+RewriteRule ^/?$ "http\:\/\/nguyenmp\.com" [R=302,L]
+

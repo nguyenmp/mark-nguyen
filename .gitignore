@@ -1,2 +1,4 @@
 # All backup files #
 *~
+.sass-cache/
+main.css.map

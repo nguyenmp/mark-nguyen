@@ -1,0 +1,60 @@
+#landing {
+    background-color: $background_primary;
+    text-align: center;
+    color: $foreground_secondary;
+    font-size: 160%;
+
+    display: table;
+}
+
+#landing-inner {
+    vertical-align: middle;
+    padding-top: 20%;
+}
+
+#landing-header {
+    display: inline-block;
+}
+
+#landing-name {
+    font-size: 140%;
+    color: $foreground_primary;
+    font-weight: bold;
+}
+
+#landing-title {
+    font-size: 120%;
+    color: $foreground_primary;
+    font-weight: bold;
+}
+
+#start-link {
+    bottom: 5%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    @include vendors("transform", "translateX(-50%)");
+}
+
+#start-button {
+    width: 80px;
+    height: 80px;
+    color: $foreground_accent;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#start-button-text {
+    font-size: 200%;
+}
+
+
+// Because there's a landing, we need to make sure
+// for huge screens it doesn't consume it all
+#content {
+    min-height: 100vh;
+}
+
+h4 {
+    display: inline-block;
+}

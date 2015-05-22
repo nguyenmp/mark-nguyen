@@ -1,0 +1,74 @@
+@include vendors-keyframes(fadein) {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@mixin fade-in($delay) {
+    $duration: 1.8s;
+
+    @include vendors("animation", "fadein #{$duration}");
+    @include vendors("animation-delay", "#{$delay}");
+    @include vendors("animation-fill-mode", "both");
+    @include vendors("animation-timing-function", "ease-in-out");
+}
+
+$delays: 0s 0.5s 1s 1.5s 2s 2.5s 3s;
+@each $delay in $delays {
+    *[data-fade-in="#{$delay}"] {
+        @include fade-in($delay)
+    }
+}
+
+@include vendors-keyframes(spin) {
+    from {
+        @include vendors("transform", "rotate(0deg)");
+        background-size: initial;
+    }
+    25% {
+        @include vendors("transform", "scale(5) rotate(90deg)");
+        @include vendors("filter", "contrast(1000%)")
+    }
+    50% {
+        @include vendors("transform", "scale(10) rotate(180deg)");
+        @include vendors("filter", "contrast(2000%)")
+    }
+    75% {
+        @include vendors("transform", "scale(5) rotate(270deg)");
+        @include vendors("filter", "contrast(1000%)")
+    }
+    to   {
+        @include vendors("transform", "rotate(360deg)");
+        background-size: initial;
+    }
+}
+
+@mixin spin {
+    @include vendors("animation", "spin 2s linear infinite");
+}
+
+@include vendors-keyframes(flippy-floppy) {
+    from {
+        @include vendors("transform", "rotateX(0deg)");
+    }
+    25% {
+        @include vendors("transform", "rotateX(90deg)");
+    }
+    50% {
+        @include vendors("transform", "rotateX(180deg)");
+    }
+    75% {
+        @include vendors("transform", "rotateX(270deg)");
+    }
+    to {
+        @include vendors("transform", "rotateX(360deg)");
+    }
+}
+
+@mixin flippy-floppy {
+    @include vendors("animation", "flippy-floppy 2s ease-in-out infinite");
+    display: inline-block;
+}

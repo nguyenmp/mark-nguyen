@@ -1,60 +1,150 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Mark Nguyen: Pro-grammer</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-	<body>
-		<div id="background"></div>
-		<div id="container">
-			<div id="title" class="content_card">
-				<h1>Mark Nguyen</h1>
-				<h2>Software Engineer</h2>
-			</div>
+  <head>
+    <title>Mark Nguyen: Pro-grammer</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" href="favicon.png" />
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="background" class="full-screen" data-fade-in="1s"></div>
 
-			<div id="navigation" class="content_card">
-				<ul id="navigation">
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#ideas">Ideas</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="https://github.com/nguyenmp">Github</a></li>
-					<li><a href="https://twitter.com/nguyenm605">Twitter</a></li>
-					<li><a href="http://markerzzzzz.blogspot.com/">Blogspot</a></li>
-				</ul>
-			</div>
+    <div id="content" data-fade-in="0.5s">
+      <div id="title_container">
+        <header>
+          <div id="title" class="header">
+            <div id="my_face"></div>
+            <div class="header_text">
+              <h1 id="my_name"><span id="w">M</span>ark Nguyen</h1>
+              <h2 id="my_title">Code Artisan</h2>
+            </div>
+          </div>
+        </header>
+      </div>
 
-			<div id="about" name="about" class="content_card">
-				<h3>About Me</h3>
-				<p>Hello! My name is Mark Nguyen and I'm a software engineer.  I'm currently a student at the University of California, Santa Barbara and I expect to get my Bachelor's in Computer Science in June 2015. In my spare time, I enjoy reading about good design practices as well as toying with other languages.  I've done work in many different areas including Android, web dev, and scripting.  Basically, I love working on lots of different things, gaining perspective along the way.</p>
+      <section id="about" class="content_card" data-fade-in="1.5s">
+        <div class="content_card_inner">
+          <header><h2>Know Me</h2></header>
+          <p>Prospective graduate of <a href="Http://ucsb.edu">UCSB</a> and future <a href="http://apple.com">Apple</a> engineer.</p>
+        </div>
+      </section>
 
-				<p>Outside of coding, I enjoy cooking foods including banana bread and chicken and dumplings.  Cooking is only half the fun though while the other half is sharing it.</p>
-			</div>
+      <section id="about" class="content_card" data-fade-in="2s">
+        <div class="content_card_inner">
+          <header><h2>Reach Me</h2></header>
+          <p>You can reach me at <a href="mailto:contact@nguyenmp.com">contact@nguyenmp.com</a>.</p>
+        </div>
+      </section>
 
-			<div id="projects" name="projects" class="content_card">
-				<h3>Projects</h3>
-				I build lots of things in my spare time in all different realms of languages and technologies.
-				<ul>
-					<li>CSIL Status (Android, Google App Engine)</li>
-					<li>/r/eader (Android)</li>
-					<li>SexInfoOnline.com (PHP, HTML, CSS, JS)</li>
-					<li>GauchoHomework (Android)</li>
-					<li>GauchoWifi (Android)</li>
-				</ul>
-			</div>
+      <section id="experience" class="content_card" data-fade-in="2.5s">
+        <div class="content_card_inner">
+          <header><h2>Experience Me</h2></header>
+          <ul id="list-of-companies">
+            <li><section class="company">
+              <header><h4><span class="job-title">iOS Engineer</span></h4> &ndash; <span class="company-name"><a href="http://apple.com">Apple</a></span></header>
+              <span class="company-date">June 2015 &ndash; Present</span>
+              <div class="company-description">Top Secret, bounded by the laws of causality.</div>
+            </section></li>
+            <li><section class="company">
+              <header><h4><span class="job-title">Android Engineer</span></h4> &ndash; <span class="company-name"><a href="http://procore.com">Procore</a></span></header>
+              <span class="company-date">Nov 2013 &ndash; March 2015</span>
+              <div class="company-description">Worked hard on making things fast and reliable!</div>
+            </section></li>
+            <li><section class="company">
+              <header><h4><span class="job-title">Web Master</span></h4> &ndash; <span class="company-name"><a href="http://sexinfoonline.com">SexInfoOnline</a></span></header>
+              <span class="company-date">April 2013 &ndash; June 2015</span>
+              <div class="company-description">Did anything and everything involved with keeping this website running while adding new things constantly.</div>
+            </section></li>
+            <li><section class="company">
+              <header><h4><span class="job-title">Classroom Support Tech</span></h4> &ndash; <span class="company-name"><a href="http://media.classroom.id.ucsb.edu/">Instructional Development, UCSB</a></span></header>
+              <span class="company-date">March 2013 &ndash; June 2014</span>
+              <div class="company-description">
+                <ul>
+                  <li>
+                    <span class="component-name">STAR Helper</span> &ndash;
+                    <a href="https://github.com/nguyenmp/star-helper">Github</a>
+                    <p>Google Chrome extension that modifies the CSS and HTML for usability on the STAR internal website that manages student information as well as provides common shortcuts and preemptively loads data for quick access.</p>
+                  </li>
+                  <li>
+                    <span class="component-name">Laptop Updates</span> &ndash;
+                    <a href="https://github.com/nguyenmp/media-pc-updates">Github</a>
+                    <p>Wrote scripts for windows and mac to automate the cleaning and updating process including individual programs as well as system updates.</p></li>
+                </ul>
+              </div>
+            </section></li>
+          </ul>
+        </div>
+      </section>
 
-			<div id="ideas" name="ideas" class="content_card">
-				<h3>Ideas</h3>
-				Hello! My name is Mark Nguyen and I love to code!
-			</div>
-
-			<div id="contact" name="contact" class="content_card">
-				<h3>Get In Touch</h3>
-				I have a pretty big presence all over the web.  You can find me via:
-
-				<a href="mailto://contact@nguyenmp.com">E-Mail</a>
-				<a href="https://reddit.com/u/markerz">Reddit</a>
-				<a href="https://twitter.com/nguyenm605">Twitter</a>	
-			</div>
-		</div>
-	</body>
+      <section id="projects" class="content_card" data-fade-in="3s">
+        <div class="content_card_inner">
+          <header><h2>Build With Me</h2></header>
+          <ul id="list-of-projects">
+            <li><section class="project">
+              <header><h4><span class="project-name">http://nguyenmp.com</span></h4>
+                &ndash; 
+                <a href="http://nguyenmp.com">Link</a>
+                <a href="https://github.com/nguyenmp/mark-nguyen">Github</a>
+              </header>
+              <span class="project-date">April 2015 &ndash; Present</span>
+              <div class="project-description">Personal website to experiment with HTML, CSS, and JS.  Primary goals include fast loading times and responsive design.</div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">CSIL Status</span></h4>
+                &ndash; 
+                <a href="https://github.com/nguyenmp/CS263">Github</a>
+              </header>
+              <span class="project-date">Feb 2014 &ndash; Dec 2014</span>
+              <div class="project-description">
+                Analytics engine for UCSB CSIL computers composed of three parts:
+                <ul>
+                  <li><span class="component-name">Android Client</span> &ndash; Mobile interface for checking usage information as well as posted notifications when followers came online</li>
+                  <li><span class="component-name">Web App</span> &ndash; Frontend for viewing historical data of users logged in as well as backend for crunching and analyzing through the big data</li>
+                  <li><span class="component-name">Desktop Client/Scraper</span> &ndash; Highly resilliant desktop application that regularly sent the server current usage data for individual computers</li>
+                </ul>
+              </div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">/r/eader</span></h4></header>
+              <span class="project-date">Feb 2014 &ndash; Dec 2014</span>
+              <div class="project-description">A reboot of Reddit Reader using the best practices of Android.</div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">AudioSync</span></h4></header>
+              <span class="project-date">Jan 2013 &ndash; Mar 2013</span>
+              <div class="project-description">A group project to synchronize music playback on multiple Android phones over WiFi.</div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">Gaucho Wifi</span></h4></header>
+                &ndash; 
+                <a href="https://play.google.com/store/apps/details?id=com.nguyenmp.gauchowifi">Google Play</a>
+              <span class="project-date">Sep 2012 &ndash; March 2013</span>
+              <div class="project-description">Automatically logs you into the UCSB wireless web.</div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">Gaucho Homework</span></h4></header>
+                &ndash; 
+                <a href="https://play.google.com/store/apps/details?id=com.nguyenmp.gauchodroid">Google Play</a>
+              <span class="project-date">Sep 2012 &ndash; Dec 2012</span>
+              <div class="project-description">An unofficial Android frontend for GauchoSpace, UCSB's course management system.</div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">Puush Image Manager</span></h4></header>
+                &ndash; 
+                <a href="https://play.google.com/store/apps/details?id=com.nguyenmp.puush4droid">Google Play</a>
+              <span class="project-date">Sep 2012 &ndash; Dec 2012</span>
+              <div class="project-description">An unofficial Android frontend for <a href="puush.me">puush.me</a>.  This was primarily a learning experience and due to unofficial support and no official API, this project was scrapped.  I also stopped using Puush.</div>
+            </section></li>
+            <li><section class="project">
+              <header><h4><span class="project-name">Reddit Reader</span></h4></header>
+              <span class="project-date">Sep 2011 &ndash; June 2012</span>
+              <div class="project-description">My first app ever!  I spent a year learning how to make an Android app.  Eventually scrapped the project because a better app finally was released.</div>
+            </section></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,107 @@
+$max-column-width: 768px;
+$content-margins: 16px;
+
+// This doesn't really belong here but it's
+// used by both heading and content and uses mixins::mobile
+.content-width {
+    max-width: $max-column-width;
+    margin: $content-margins auto;
+
+    @include mobile {
+        margin: $content-margins;
+    }
+}
+
+.content_card {
+    @extend .content-width;
+
+    color: $foreground_secondary;
+    background-color: $background_secondary;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: $background_secondary_accent;
+        transition: background-color 0.5s ease-in-out;
+    }
+}
+
+.content_card_inner {
+    padding: 32px;
+
+    h2 {
+        color: $foreground_primary;
+    }
+}
+
+a {
+    color: $foreground_accent;
+    text-decoration: underline;
+    @include vendors("transition", "all 0.5s");
+
+
+    &:hover {
+        color: $foreground_primary;
+        text-decoration: underline;
+    }
+}
+
+#navigation {
+    text-align: center;
+}
+
+#navigation li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.company, .project {
+    margin: 24px 0px;
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#list-of-projects, #list-of-companies {
+    list-style-type: none;
+}
+
+#projects, #experience {
+    header {
+        display: inline;
+        color: $foreground-primary;
+
+        @include mobile-small {
+            display: block;
+        }
+    }
+}
+
+.component-name {
+    color: $foreground-primary;
+}
+
+.project-date, .company-date {
+    float: right;
+
+    @include mobile-small {
+        float: initial;
+        font-style: italic;
+    }
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.project-description, .company-description {
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+    li {
+        margin-left: 24px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}

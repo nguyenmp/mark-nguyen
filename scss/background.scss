@@ -1,0 +1,19 @@
+// this sets the empty div that fills the whole screen a
+// background image and set's it behind everything else
+body {
+    background-color: $background_primary;
+}
+
+#background {
+  background-image: url("IMG_20150310_21394555.jpg");
+  background-color: $background_primary;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  // This will definitely make it hidden behind everything
+  z-index: -1;
+
+  /* We will position our view to be slightly over the edge by 10vmin */
+  position: fixed;
+}

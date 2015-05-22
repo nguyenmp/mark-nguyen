@@ -1,0 +1,76 @@
+#title_container {
+    width: 100%;
+    background-color: $background_primary;
+    display: inline-block;
+    text-align: center;
+}
+
+#w {
+    &:hover {
+        @include flippy-floppy;
+    }
+}
+
+#title {
+    @extend .content-width;
+    
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+$header_margin: 16px;
+
+.header {
+    $header_height: 80px;
+    $ratio: 0.6;
+    $name_height: $header_height * $ratio;
+    $title_height: $header_height - $name_height;
+
+    text-align: left;
+
+    #my_face {
+        float: left;
+        background-image: url("./my_face_2.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        margin: $header_margin;
+        width: $header_height;
+        height: $header_height;
+        display: inline-block;
+
+        @include mobile-small {
+            float: none;
+        }
+
+        &:hover {
+            @include spin;
+            background-size: initial;
+        }
+    }
+
+
+    .header_text {
+        float: left;
+        margin: $header_margin;
+        text-align: left;
+
+        @include mobile-small {
+            float: none;
+            text-align: center;
+        }
+
+        #my_name {
+            font-size: $name_height;
+            line-height: $name_height;
+            color: $foreground_primary;
+        }
+
+        #my_title {
+            font-size: $title_height;
+            line-height: $title_height;
+            color: $foreground_secondary;
+        }
+    }
+}
