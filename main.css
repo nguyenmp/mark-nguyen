@@ -617,7 +617,7 @@ body {
 .content_card_inner {
   padding: 32px; }
   .content_card_inner h2 {
-    color: #1F6BC3; }
+    color: #417EC5; }
 
 a {
   color: peachpuff;
@@ -628,7 +628,7 @@ a {
   -o-transition: all 0.5s;
   transition: all 0.5s; }
   a:hover {
-    color: #1F6BC3;
+    color: #417EC5;
     text-decoration: underline; }
 
 #navigation {
@@ -650,13 +650,13 @@ p {
 
 #projects header, #experience header {
   display: inline;
-  color: #1F6BC3; }
+  color: #417EC5; }
   @media (max-width: 480px) {
     #projects header, #experience header {
       display: block; } }
 
 .component-name {
-  color: #1F6BC3; }
+  color: #417EC5; }
 
 .project-date, .company-date {
   float: right; }
@@ -727,7 +727,7 @@ p {
     .header .header_text #my_name {
       font-size: 48px;
       line-height: 48px;
-      color: #1F6BC3; }
+      color: #417EC5; }
     .header .header_text #my_title {
       font-size: 32px;
       line-height: 32px;
@@ -749,12 +749,12 @@ p {
 
 #landing-name {
   font-size: 140%;
-  color: #1F6BC3;
+  color: #417EC5;
   font-weight: bold; }
 
 #landing-title {
   font-size: 120%;
-  color: #1F6BC3;
+  color: #417EC5;
   font-weight: bold; }
 
 #start-link {
